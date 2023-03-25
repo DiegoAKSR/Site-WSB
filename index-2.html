@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu"
+     type="checkbox" aria-label="close menu"
+      role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">Logo</a></h1>
+            
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#top3-two">work</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <h2>January brings us Firefox 85</h2>
+            <p>January is the perfect time for fresh starts. It is during this month 
+                that you get a clean slate for everything. This month presents an 
+                opportunity to leave all your mistakes behind.
+                Now, you can say that those blunders took place 'last year.</p>
+            </div>
+            <div class="intro-img">
+                <img  src="assets/img/js.svg.sv"
+                alt="Logo de HTML, CSS e JS">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>top 3 jobs</h2>
+            <p>This post comes with a lucrative salary and high authority,
+                with an overall employment rate supposed to show an average
+                rise of 8% between 2020 and 2030. Approximately 247,100
+                openings for top executives are posted on job portals
+                each year.
+            </p>
+            <p>The pandemic has affected the salaries of the medical fraternity.
+                There is a surging demand for better health facilities, and qualified
+                professionals, and not enough growth in the supply.
+                This drives the rise in salaries of medical professionals.  
+            </p>
+            <p>What is better than an exciting career that pays super well?
+                In 2020, the USA witnessed an uptick of 106% vacancies for corporate lawyers,
+                underlining the growing demand for this post.
+            </p>
+        </div>
+
+    </section>
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My grid</h2>
+            <p class="grid-description">uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi recusandae corrupti neque eaque debitis asperiores, 
+                    qui rem, cupiditate quisquam dolorum modi deserunt ipsam tempora,
+                    eligendi incidunt ducimus! Voluptate, consequuntur ipsam!
+                </p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi recusandae corrupti neque eaque debitis asperiores, 
+                    qui rem, cupiditate quisquam dolorum modi deserunt ipsam tempora,
+                    eligendi incidunt ducimus! Voluptate, consequuntur ipsam!
+                </p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi recusandae corrupti neque eaque debitis asperiores, 
+                    qui rem, cupiditate quisquam dolorum modi deserunt ipsam tempora,
+                    eligendi incidunt ducimus! Voluptate, consequuntur ipsam!
+                </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">uma breve descrição</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://cdn.discordapp.com/attachments/1087106388104335523/1087550661660512346/Aksura_create_a_background_for_a_website_inspired_by_shooting_g_e2efc4cc-dac9-4cab-a100-1475861e22b3.png"
+                    alt="random image from soldier">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.discordapp.com/attachments/1087106388104335523/1087550661660512346/Aksura_create_a_background_for_a_website_inspired_by_shooting_g_e2efc4cc-dac9-4cab-a100-1475861e22b3.png"
+                    alt="random image from soldier">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://cdn.discordapp.com/attachments/1087106388104335523/1087550661660512346/Aksura_create_a_background_for_a_website_inspired_by_shooting_g_e2efc4cc-dac9-4cab-a100-1475861e22b3.png"
+                    alt="random image from soldier">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="top3-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Top 3 Jobs</h2>
+            <p class="grid-description">uma breve descrição</p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi recusandae corrupti neque eaque debitis asperiores, 
+                    qui rem, cupiditate quisquam dolorum modi deserunt ipsam tempora,
+                    eligendi incidunt ducimus! Voluptate, consequuntur ipsam!
+                </p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi recusandae corrupti neque eaque debitis asperiores, 
+                    qui rem, cupiditate quisquam dolorum modi deserunt ipsam tempora,
+                    eligendi incidunt ducimus! Voluptate, consequuntur ipsam!
+                </p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Commodi recusandae corrupti neque eaque debitis asperiores, 
+                    qui rem, cupiditate quisquam dolorum modi deserunt ipsam tempora,
+                    eligendi incidunt ducimus! Voluptate, consequuntur ipsam!
+                </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>This post comes with a lucrative salary and high authority,
+                with an overall employment rate supposed to show an average
+                rise of 8% between 2020 and 2030. Approximately 247,100
+                openings for top executives are posted on job portals
+                each year.
+            </p>
+            <p>The pandemic has affected the salaries of the medical fraternity.
+                There is a surging demand for better health facilities, and qualified
+                professionals, and not enough growth in the supply.
+                This drives the rise in salaries of medical professionals.  
+            </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr></tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr></tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr></tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+            <h2>January brings us Firefox 85</h2>
+            <p>January is the perfect time for fresh starts. It is during this month 
+                that you get a clean slate for everything. This month presents an 
+                opportunity to leave all your mistakes behind.
+                Now, you can say that those blunders took place 'last year.</p>
+            </div>
+            <div class="intro-img">
+                <img  src="assets/img/js.svg.sv" 
+                alt="Logo de HTML, CSS e JS">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label class="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name"
+                        placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label class="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name"
+                        placeholder="Your last name">>
+                    </div>
+                    <div class="form-group">
+                        <label class="email">email</label>
+                        <input type="email" name="email" id="email"
+                        placeholder="Your email">>
+                    </div>
+                    <div class="form-group full-width">
+                        <label class="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Your Text"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                    
+                </fieldset>
+            </div>
+        </div>
+            
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p>Feito com carinho por Diego Nunes</p>
+    </footer>
+    <a class="back-to-top" href="#">Top</a>
+</body>
+</html>
