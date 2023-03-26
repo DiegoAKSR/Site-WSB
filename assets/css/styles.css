@@ -105,6 +105,7 @@ h1 {
 
 .section {
     min-height: 100vh;
+    border: 1px solid black;
  
 }
 
@@ -207,7 +208,7 @@ h1 {
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
-    border: 1px solid back;
+
 }
 
 .space {
@@ -239,3 +240,54 @@ h1 {
     height: auto;
 }
 /*<img class="intro-img" src="assets/img/a_background.jpg">*/
+
+/* Seção membros e contatos */
+
+.section-recrut {
+    min-height: 100vh;
+    background: #113140;
+    border: 1px solid #113140;
+    
+}
+
+.div-section-white {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    background: #113140f9;
+}
+
+.div-paragrafo-1 h1 {
+    color: black;
+    float: right;
+    margin: 72px 20px 15px 15px;
+    min-width: 250px;
+    max-height: 100px; 
+
+}
+
+.div-paragrafo-1 p {
+    color: black;
+    font-size: 25px;
+    margin: 20px 20px 5px 15px;
+    max-height: 200px; 
+
+}
+
+.div-section-white img {
+    margin: 72px 20px 15px 30px;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 1%;
+
+}
+
+.div-paragrafo-1 {
+    display: flex;
+    align-items: top;
+    flex-flow: column;
+    float: right;
+    margin: 72px 20px 15px 15px;
+    
+}
