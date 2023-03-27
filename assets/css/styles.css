@@ -284,6 +284,7 @@ h1 {
 .div-img {
     display: flex;
     flex-flow: row;
+    max-height: 50%;
 }
 
 .h1-tarky{
@@ -347,21 +348,29 @@ h1 {
 
 .contact {
     display: flex;
-    max-width: 100%;
+    max-width: 47%;
     min-height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-contact {
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 0px;
     max-width: 50px;
     background: white;
     border-radius: 20%;
+    list-style-type: none;
+
+
 }
 
 .ul-contact {
     display: flex;
     flex-flow: wrap;
-    text-decoration: none;  
+    min-width: 50%;
+    align-items: center;
+    justify-content: space-between; 
+
 }
 
 
