@@ -255,13 +255,14 @@ h1 {
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
+    flex-flow: column;
     background: #113140f9;
 }
 
 .div-paragrafo-1 h1 {
     color: black;
     float: right;
-    margin: 72px 20px 15px 15px;
+    margin: 0px 20px 15px 15px;
     min-width: 250px;
     max-height: 100px; 
 
@@ -271,15 +272,50 @@ h1 {
     color: black;
     font-size: 25px;
     margin: 20px 20px 5px 15px;
-    max-height: 200px; 
+    max-height: 200px;
+    
 
 }
 
+.div-img {
+    display: flex;
+    flex-flow: row;
+}
+
+.h1-tarky{
+    display: flex;
+    color: black;
+    float: right;
+    margin: 72px 20px 15px 15px;
+    min-width: 250px;
+    max-height: 100px;
+    max-width: 50%; 
+}
+
+.p-tarky{
+    display: flex;
+    color: black;
+    font-size: 25px;
+    margin: 20px 20px 5px 15px;
+    max-width: 50%;
+}
+
+.div-img-text {
+    flex-flow: column;
+    display: flex;
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 50%;
+    min-height: 50%;
+}
+
+
 .div-section-white img {
-    margin: 72px 20px 15px 30px;
-    max-width: 600px;
-    max-height: 600px;
-    border-radius: 1%;
+    margin: 72px 20px 15px 0px;
+    border-radius: 50%;
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
 
 }
 
