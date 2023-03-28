@@ -10,8 +10,15 @@ html {
 
 }
 
+@font-face {
+    font-family: Pubg;
+    src: url("../font/HeadlinerNo.45.ttf")
+}
 
-
+@font-face {
+    font-family: standoff;
+    src: url("../font/standoff.otf");
+}
 
 .main-content {
     max-width: 1200px;
@@ -130,31 +137,49 @@ h1 {
     padding: 73px 20px 30px 64px;
     display: flex;
     color: #d7ac00;
+    font-size: 75px;
+
 }
 
+
+
 .games-h1 p {
-    font-size: 12px;
+    font-size: 20px;
     align-self: center;
     color: #d7ac00; 
 }
 
 .div-pubg h1 {
+    font-family: Pubg;
+    font-size: 130px;
+    letter-spacing: 5px;
+    text-shadow: black 6px 3px 3px;
+    padding: 20px 15px 5px 20px;
     color:#d7ac00;
-    background: rgba(18, 18, 18, 0.5);
+    background: rgba(18, 18, 18, 0.7);
 
   
 }
 
 .div-standof h1 {
+    font-family: standoff;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: black 6px 3px 3px;
+    padding: 20px 15px 5px 20px;
     color: #66a3ff;
-    background: rgba(18, 18, 18, 0.5);
+    background: rgba(18, 18, 18, 0.7);
 }
 
 .div-standof p, .div-pubg p {
-    border-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 350px;
-    background: rgba(18, 18, 18, 0.5);
-    border-radius: 1%;
+    background: rgba(18, 18, 18, 0.7);
+    font-size: 17px;
+}
+
+.div-pubg p {
+    max-width: 390px; 
 }
 
 
