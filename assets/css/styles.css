@@ -121,7 +121,7 @@ h1 {
 }
 
 .home-section p {
-    color: white;
+    color: aliceblue;
     padding: 15px 10px 0 0;
 }
 
@@ -223,6 +223,17 @@ h1 {
 
 /* Section história */
 
+
+.div-historia-container p {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+    font-size: 17px;
+    max-width: 80%; 
+}
+
+
 .section-historia{
     background: url("../img/a_background.jpg");
     background-size: 110%;
@@ -266,6 +277,7 @@ h1 {
     margin: 70px 0 25px 35px;
     max-width: 40%;
     height: auto;
+    text-shadow: black 1px 1px 1px;
 }
 
 .div-historia-container p {
@@ -295,24 +307,14 @@ h1 {
     
 }
 
-.div-paragrafo-1 h1 {
-    display: flex;
-    color: black;
-    float: right;
-    margin: 72px 20px 15px 15px;
-    min-width: 250px;
-    max-height: 100px;
-    max-width: 50%;
-
+.h1-para1 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 72px;
+    min-width: 100%;
+    text-shadow: black 2px 2px 2px;
 }
 
-.div-paragrafo-1 p {
-    display: flex;
-    color: black;
-    font-size: 25px;
-    margin: 20px 20px 5px 15px;
-    max-width: 50%; 
-}
 
 .div-img {
     display: flex;
@@ -323,18 +325,19 @@ h1 {
 .h1-tarky{
     align-self: center;
     display: flex;
-    color: black;
+    color: aliceblue;
     float: right;
     margin: 72px 20px 15px 15px;
     min-width: 250px;
     max-height: 100px;
     max-width: 50%; 
+    text-shadow: black 2px 2px 2px;
 }
 
 .p-tarky{
     align-self: center;
     display: flex;
-    color: black;
+    color: aliceblue;
     font-size: 25px;
     margin: 20px 20px 5px 15px;
     max-width: 50%;
@@ -356,14 +359,14 @@ h1 {
     max-width: 30%;
     max-height: 1%;
 }
+
 .a-img-tarky {
     margin: 72px 20px 15px 0px;
     max-width: 100%;
     max-height: 100%;
     min-height: auto;
 }
-.div-section-white a img {
-    
+.div-section-white a img {  
     border-radius: 50%;
     display: flex;
     max-width: 100%;
@@ -371,47 +374,68 @@ h1 {
 
 }
 
-.div-paragrafo-1 {
+.div-paragrafo-1 p {
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-flow: column;
-    align-items: top;
-    justify-content: left;
+    color: aliceblue;
+    font-size: 20px;
+    max-width: 80%; 
+    align-self: center;
     
 }
 
-.contact {
-    display: flex;
-    max-width: 47%;
-    min-height: 100%;
+.div-paragrafo-1 {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    
 }
 
-.icon-contact {
-    margin: 5px 5px 5px 0px;
-    max-width: 50px;
-    background: white;
-    border-radius: 20%;
-    list-style-type: none;
-
-
-}
-
-.ul-contact {
-    display: flex;
-    flex-flow: wrap;
-    min-width: 50%;
-    align-items: center;
-    justify-content: space-between; 
-
-}
 
 
 
 /* rodapé */
 
 .footer {
-    background: rgba(1, 1, 1, 0.5);
-    width: 100%;
-    height: 50px;
+    max-height: 150px;
+    min-height: 130px;
+}
+
+
+.contact {
+    display: flex;
+    max-width: 100%;
+    min-height: 100%;
+
+}
+
+.icon-contact {
+    margin: 5px 5px 5px 0px;
+    border: 60px;
+    max-width: 100%;
+    background: white;
+    list-style-type: none;
+    border-radius: 30%;
+
+
+}
+
+.icon-contact:hover {
+    background: rgba(18, 18, 18, 0.7);
+    border-radius: 30%;
+    transition: all 300ms ease-in-out ;
+}
+
+.ul-contact {
+    padding: 10px 10px 10px 50px;
+    display: flex;
+    flex-flow: wrap;
+    min-width: 20%;
+    align-items: center;
+    justify-content: space-between;
+
 }
