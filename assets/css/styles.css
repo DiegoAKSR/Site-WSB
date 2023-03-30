@@ -308,7 +308,7 @@ h1 {
     max-width: 40%;
     height: auto;
 }
-/*<img class="intro-img" src="assets/img/a_background.jpg">*/
+
 
 /* Seção membros e contatos */
 
@@ -476,9 +476,176 @@ h1 {
 
 }
 
-.footer p {
+.footer-p {
     color: aliceblue;
     text-align: right;
     padding: 0 20px 5px 5px;
     font-size: 15px;
 }
+
+
+/*    Media query    */
+
+@media screen and (max-width: 1024px) {
+    
+
+
+    .div-historia-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    body {
+        min-width: 120%;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+}
+
+
+@media screen and (max-width: 719px) {
+    .div-wolf-squad, .logo-h1 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 423px) {
+    
+    .space {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    body {
+        min-width: 120%;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+
+    .div-historia-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .div-standof, .div-pubg {
+        min-height: 45vh;
+    }
+
+    .section {
+        min-height: 100vh;
+    }
+
+    .div-img {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .div-img-text {
+        min-width: 100%;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .h1-tarky, .p-tarky {
+        max-width: 80%;
+    }
+
+
+}   
+
+
+@media screen and (max-width: 390px) {
+
+    body {
+        min-width: 140%;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+
+    .div-historia-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .div-standof, .div-pubg {
+        min-height: 45vh;
+    }
+
+    .section {
+        min-height: 110vh;
+    }
+
+    .div-img {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .div-img-text {
+        min-width: 100%;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .h1-tarky, .p-tarky {
+        max-width: 80%;
+    }
+
+    .div-historia, .div-historia-container {
+        min-height: 140vh;
+    }
+} 
+
+
+
+@media screen and (max-width: 375px) {
+
+    body {
+        min-width: 120%;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+
+    .div-historia-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .div-standof, .div-pubg {
+        min-height: 65vh;
+    }
+
+    .section {
+        min-height: 110vh;
+    }
+
+    .div-img {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .div-img-text {
+        min-width: 100%;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .h1-tarky, .p-tarky {
+        max-width: 80%;
+    }
+
+    .div-historia, .div-historia-container {
+        min-height: 150vh;
+    }
+} 
