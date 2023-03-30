@@ -506,7 +506,7 @@ h1 {
 
 
 @media screen and (max-width: 719px) {
-    .div-wolf-squad, .logo-h1 {
+    .div-wolf-squad, .logo-h1, .space {
         display: none;
     }
 }
