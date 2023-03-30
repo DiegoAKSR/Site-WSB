@@ -6,8 +6,13 @@
 
 html {
     scroll-behavior: smooth;
-    background:  cornsilk;
+    background: #181818;
+/* cornsilk */
+}
 
+@font-face {
+    font-family: wolf;
+    src: url("../font/wolf.ttf")
 }
 
 @font-face {
@@ -27,6 +32,24 @@ html {
     
 }
 
+.div-wolf-squad-h1 {
+    font-size: 45px;
+    color: aliceblue;
+    font-family: wolf;
+    text-align: center;
+    align-self: center;
+    min-height: 80%;
+ 
+}
+
+.div-wolf-squad {
+    float: right;
+    min-width: 30%;
+    align-items: center;
+    padding-top: 5px;
+}
+
+
 .menu{
     background: rgba(1, 1, 1, 0.4);
     display: flex;
@@ -45,7 +68,7 @@ html {
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
-    float: right;
+    float: left;
 }
 
 
@@ -228,7 +251,7 @@ h1 {
     margin-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    color: white;
+    color: aliceblue;
     font-size: 17px;
     max-width: 80%; 
 }
@@ -265,7 +288,7 @@ h1 {
     display: flex;
     flex-flow: column;
     padding: 10px;
-    color: white;
+    color: aliceblue;
     float: left;
     max-width: 100%;
     height: 100vh;
@@ -401,8 +424,11 @@ h1 {
 /* rodapé */
 
 .footer {
-    max-height: 150px;
-    min-height: 130px;
+    border-top: 7px groove rgba(1, 1, 1, 1);
+    max-height: 130px;
+    min-height: 70px;
+    /*background: aliceblue;*/
+
 }
 
 
@@ -417,16 +443,26 @@ h1 {
     margin: 5px 5px 5px 0px;
     border: 60px;
     max-width: 100%;
-    background: white;
     list-style-type: none;
     border-radius: 30%;
+    display: flex;
+    align-items: center;
 
 
 }
 
+
+.icon-contact a img {
+    max-width: 50px;
+    max-height: 54px;
+    align-self: center;
+ 
+}
+
+
 .icon-contact:hover {
-    background: rgba(18, 18, 18, 0.7);
-    border-radius: 30%;
+    background: rgba(250, 248, 248, 0.1);
+    border-radius: 2%;
     transition: all 300ms ease-in-out ;
 }
 
@@ -438,4 +474,11 @@ h1 {
     align-items: center;
     justify-content: space-between;
 
+}
+
+.footer p {
+    color: aliceblue;
+    text-align: right;
+    padding: 0 20px 5px 5px;
+    font-size: 15px;
 }
