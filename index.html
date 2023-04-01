@@ -9,14 +9,20 @@
 
 </head>
 <body id="Inicio">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    
     <aside  class="menu">
         <div class="logo-h1">
-            <h1  ><a href="#Inicio"><img class="logo-img" src="assets/img/logo.jpg"></a></h1>
+            <h1><a href="#Inicio"><img class="logo-img" src="assets/img/logo.jpg"></a></h1>
         </div>
-        <div class="div-wolf-squad"><h1 class="div-wolf-squad-h1">WOLF SQUAD</h1></div>
+            <nav >
+                <div class="div-wolf-squad"><h1 class="div-wolf-squad-h1">WOLF SQUAD</h1></div>
+            </nav>
         <div class="menu-div main-content">
             <nav >
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#historia">Historia</a></li>
                     <li><a href="#recrutamento">Recrutamento</a></li>

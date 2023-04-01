@@ -43,7 +43,7 @@ html {
 }
 
 .div-wolf-squad {
-    float: right;
+    float: left;
     min-width: 30%;
     align-items: center;
     padding-top: 5px;
@@ -486,6 +486,11 @@ h1 {
 }
 
 
+.close-menu {
+    display: none;
+}
+
+
 /*    Media query    */
 
 @media screen and (max-width: 1024px) {
@@ -514,19 +519,93 @@ h1 {
 
 
 @media screen and (max-width: 719px) {
-    .div-wolf-squad, .logo-h1, .space {
+
+
+
+    .space {
         display: none;
     }
+
+
+
+    .menu-div {
+        padding-top: 90px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-h1 {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: #181818;
+        height: 100vh;
+    }
+
+   
+
+    .div-wolf-squad {
+        padding-top: 60px;
+        width: 100%;
+    }
+    .div-wolf-squad-h1 {
+        font-size: 30px;
+    
+    }
+
+    .menu div ul {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .close-menu {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+    .close-menu-label::after {
+        content: "≡";
+        color: aliceblue;
+        background: #181818;
+        position: fixed;
+        z-index: 3;
+        top: 10px;
+        right: 20px;
+        font-size: 30px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 15%;
+        cursor: pointer;
+    }
+
+  .close-menu:checked~.menu {
+    display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        display: block;
+        content: "×";
+    }
+
 }
 
 /* @media screen and (max-width: 484px) */
 
 @media screen and (max-width: 700px) {
-    
- 
-    .menu {
-        display: none;
-    }
+
 
     body {
         min-width: 1%;
