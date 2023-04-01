@@ -503,7 +503,11 @@ h1 {
         min-width: 120%;
         max-width: 100%;
         min-height: 100vh;
+        
     }
+
+
+  
 }
 
 
@@ -519,12 +523,13 @@ h1 {
 
 @media screen and (max-width: 700px) {
     
+ 
     .menu {
         display: none;
     }
 
     body {
-        min-width: 50%;
+        min-width: 1%;
         max-width: 100%;
         min-height: 100vh;
     }
@@ -542,6 +547,7 @@ h1 {
 
     .div-historia-container {
         flex-flow: column; 
+        
     }
 
     .section {
@@ -563,18 +569,26 @@ h1 {
         min-height: 100vh;
     }
 
-    
+    h1 {
+        word-wrap: break-word;
+    }
 
-    .shadow h1, .shadow p, .div-historia-container h1, .div-historia-container p,
+    .shadow h1, .shadow p, .div-historia-container p,
     .div-paragrafo-1 h1 {
         
         word-wrap: break-word;
         min-width: 100%;
         max-width: 100%;
-        padding-left: 5px;
-        
+  
+    
     }
 
+    .div-historia-container h1 {
+        word-wrap: break-word;
+        min-width: 90%;
+        max-width: 90%;
+    }
+     
     .shadow h1 {
         text-align: center;
     }
@@ -622,3 +636,4 @@ h1 {
 
 
 }
+
