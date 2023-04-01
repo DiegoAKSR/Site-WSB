@@ -499,6 +499,7 @@ h1 {
     }
     
     body {
+        align-self: center;
         min-width: 120%;
         max-width: 100%;
         min-height: 100vh;
@@ -514,8 +515,9 @@ h1 {
     }
 }
 
+/* @media screen and (max-width: 484px) */
 
-@media screen and (max-width: 484px) {
+@media screen and (max-width: 600px) {
     
     .menu {
         display: none;
